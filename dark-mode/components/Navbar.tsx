@@ -10,6 +10,7 @@ import {
     SheetTitle,
     SheetTrigger,
   } from "@/components/ui/sheet"
+  import { ModeToggle } from './ThemeButton'
   const Navbar = () => {
   return ( 
     <div className='p-4 bg-background/50 sticky top-0 backdrop-blur border-b z-10 '>
@@ -25,6 +26,7 @@ import {
     <div className='flex items-center'>
     <Button className='mx-1'>Sign In</Button>
     <Button className='mx-1'>Sign Up</Button>
+    <ModeToggle/>
 </div>
 
 </div>
